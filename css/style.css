@@ -1,0 +1,80 @@
+body {
+    background-color: #20157b;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#content {
+    width: 50%;
+    text-align: center;
+}
+
+form {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #555;
+    margin-bottom: 10%;
+}
+
+#email {
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#input-email label {
+    font-size: 1.2em;
+    color: #555;
+}
+
+#input-age-verification {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+#submit {
+    width: 50%;
+    padding: 15px;
+    color: #000000;
+    background-color: #35ff23;
+    border: none;
+    border-radius: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        margin: 2%;
+    }
+
+    #content {
+        width: 100%;
+    }
+}
